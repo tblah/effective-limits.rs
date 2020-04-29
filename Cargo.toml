@@ -18,7 +18,7 @@ sys-info = "=0.5.8"
 thiserror = "1.0.15"
 
 [target.'cfg(unix)'.dependencies]
-libc = "0.2.66"
+libc = { git = "https://github.com/rust-lang/libc.git" }
 
 
 [target."cfg(windows)".dependencies]
